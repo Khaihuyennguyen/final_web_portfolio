@@ -822,3 +822,6 @@ nav ul li a {
     font-family: 'Space Mono', monospace;
 }
 
+canvas {
+    vertical-align: bottom;
+}

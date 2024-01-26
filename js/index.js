@@ -1,7 +1,7 @@
-// Daten-Array
+// 
 var theData;
 
-// Daten holen
+// 
 fetch("./data/sites.json")
   .then((response) => response.json())
   .then((data) => prepareHTML(data));
@@ -14,10 +14,10 @@ function clickItem(val) {
 }
 
 function prepareHTML(data) {
-  // Datne zufällig sortieren
-  data.sort(() => Math.random() - 0.5);
+  // random sorting data if needed
+ //data.sort(() => Math.random() - 0.5);
 
-  // Kopie des Daten-Arrays in globalem Daten-Objekt ablegen
+  // Storing a Copy of the Data Array in a Global Data Object
   theData = [...data];
 
   // Loop through data
@@ -51,7 +51,7 @@ function prepareHTML(data) {
     parent.appendChild(item);
   }
 
-  // Künstler extrahieren
+  // n
 
   let artistsArray = [];
 

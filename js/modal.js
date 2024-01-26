@@ -58,7 +58,7 @@ function populizeModal(index) {
     let modalContent = document.getElementById("modalContent");
     modalContent.innerHTML = "";
 
-    let title = document.createElement("h2");
+    let title = document.createElement("h1");
     title.classList.add("lead");
     title.innerHTML = dataItem.title;
     modalContent.appendChild(title);

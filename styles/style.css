@@ -53,15 +53,15 @@ h5 {
 
 img {
     display: block;
-    object-fit: cover;
-        width: 100%;
-        height: 100%;
+   
+        width: 50%;
+        height: 50%;
     filter: grayscale(1);
 }
 #theGrid {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
 }
 
@@ -160,6 +160,7 @@ a {
     -webkit-hyphens: auto;
     hyphens: auto;
     cursor: pointer;
+    padding: 10px;
 }
 .container {
     width: 100%;

@@ -18,6 +18,7 @@ body {
 p {
     line-height: 120%;
 }
+
 .lead {
     line-height: 120%;
 }
@@ -39,8 +40,7 @@ b {
     font-size: calc(16px + 1vw);
 }
 
-a {
-}
+a {}
 
 p,
 h1,
@@ -54,6 +54,7 @@ h5 {
 img {
     display: block;
 }
+
 #theGrid {
     width: 100%;
     display: grid;
@@ -104,12 +105,12 @@ img {
 #theGrid a img {
     transition: all 0.4s ease;
 }
+
 #theGrid a:hover img {
     opacity: 0.8;
 }
 
-#theGrid img {
-}
+#theGrid img {}
 
 img {
     width: 100%;
@@ -118,6 +119,7 @@ img {
 .p15 {
     padding: 15px;
 }
+
 h1,
 .lead {
     font-size: calc(16px + 2vw);
@@ -152,6 +154,7 @@ a {
     hyphens: auto;
     cursor: pointer;
 }
+
 .container {
     width: 100%;
     max-width: 800px;
@@ -217,8 +220,7 @@ body.modalActive #silk {
     }
 }
 
-#modalHeader {
-}
+#modalHeader {}
 
 #modalContent {
     padding: 15px;
@@ -284,11 +286,9 @@ body.modalActive #modal {
     top: -110vh;
 }
 
-p a {
-}
+p a {}
 
-p.lead a {
-}
+p.lead a {}
 
 nav {
     display: flex;
@@ -303,8 +303,7 @@ nav h1 {
     margin: 0;
 }
 
-header {
-}
+header {}
 
 header h1 {
     font-size: calc(16px + 5vw);
@@ -313,16 +312,14 @@ header h1 {
 }
 
 @media (max-width: 768px) {
-    header {
-    }
+    header {}
 
     header h1 {
         max-width: 100%;
     }
 }
 
-header a {
-}
+header a {}
 
 .m-bot-0 {
     margin-bottom: 0;
@@ -379,7 +376,7 @@ header a {
     background-color: white;
 }
 
-.browser-mockup > * {
+.browser-mockup>* {
     display: block;
 }
 

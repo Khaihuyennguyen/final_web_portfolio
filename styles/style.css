@@ -62,7 +62,7 @@ img {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
+    
 }
 
 @media (max-width: 1400px) {

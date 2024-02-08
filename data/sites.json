@@ -15,5 +15,15 @@
     "description": "Explore the effective utilization of OpenAI APIs to craft engaging AI-driven functionalities by using Next.js in the project: Simplifying technical concepts, AI-based moderation of comments,Crafting a chatbot",
     "url": "https://chat-gpt-aip-next-js-8tg5-gt7k73941-khai-huyen-nguyens-projects.vercel.app/"
   }
+
+  ,
+  {
+    "title": "LinkUpPro",
+    "artist": ".Net, C#, PostgreSQL, Boolstrap, Railway",
+    "artistWebsite": "https://github.com/Khaihuyennguyen/ContactPro",
+    "thumb": "contactProLanding.png",
+    "description": "ALL YOUR CONTACTS IN ONE PLACE - Organize your events by keeping everyone in the loop Using .NET MVC ",
+    "url": "https://contactpro-production-1e4c.up.railway.app/"
+  }
 ]
 

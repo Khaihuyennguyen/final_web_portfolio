@@ -19,11 +19,19 @@
   ,
   {
     "title": "LinkUpPro",
-    "artist": ".Net, C#, PostgreSQL, Boolstrap, Railway",
+    "artist": ".Net, C#, PostgreSQL, Bootstrap, Railway",
     "artistWebsite": "https://github.com/Khaihuyennguyen/ContactPro",
     "thumb": "contactProLanding.png",
     "description": "ALL YOUR CONTACTS IN ONE PLACE - Organize your events by keeping everyone in the loop Using .NET MVC ",
     "url": "https://contactpro-production-1e4c.up.railway.app/"
+  },
+  {
+    "title": "Interest Calculator",
+    "artist": ".Net, C#, Bootstrap, Railway, Javascript, HTML/CSS",
+    "artistWebsite": "https://github.com/Khaihuyennguyen/MortgatgeCalc_MVC",
+    "thumb": "logo_P&Interest.png",
+    "description": "An interest calculator using .NET MVC ",
+    "url": "https://mortgatgecalcmvc-production.up.railway.app/"
   }
 ]
 

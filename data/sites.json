@@ -32,6 +32,14 @@
     "thumb": "logo_P&Interest.png",
     "description": "An interest calculator using .NET MVC ",
     "url": "https://mortgatgecalcmvc-production.up.railway.app/"
+  },
+  {
+    "title": "Clock Hand",
+    "artist": ".Net8, C#, Bootstrap, Railway, Blazor, HTML/CSS",
+    "artistWebsite": "https://github.com/Khaihuyennguyen/ClockHand",
+    "thumb": "clockhand.png",
+    "description": "Web app of an infamous coding challenge: determine angle between two clock hands ",
+    "url": "https://brave-cliff-0db3d8010.5.azurestaticapps.net/"
   }
 ]
 

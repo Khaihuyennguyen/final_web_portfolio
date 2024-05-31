@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: sans;
-    src: url(./fonts/sans.woff);
-    font-weight: normal;
-}
+  @font-face {
+      font-family: "Studio Pro";
+      src: url('fonts/StudioPro-Regular.woff') format('woff');
+      font-style: normal;
+      font-display: block;
+  }
 
 html,
 body {
@@ -517,17 +518,9 @@ h5 {
 
 /*This class is for the heading of the left */
 h1 {
-    font-size: 4.5rem;
-    line-height: 4.6875rem;
-    padding-top: 5px;
-    padding-bottom: 4px;
-    display: flex;
-    font-weight: 800;
-    letter-spacing: -0.1rem;
-
-
-
-
+    font-size: 1rem;
+    font-weight: 400;
+    font-variation-settings: 'wght' 700;
 }
 
 h3 {

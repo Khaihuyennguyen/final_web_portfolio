@@ -36,6 +36,33 @@ const nextSlide = () => {
   timeout = setTimeout(nextSlide, 2000)
 }
 
-section.addEventListener('click', nextSlide)
+const previousSlide = () => {
+  index -= 1
+  index %= pattern.length
 
+  section.style.gridTemplateColumns = pattern[index]
+    .map((p) => {
+      return `${p}fr`
+    })
+    .join(' ')
+
+  slides.forEach((slide, slideIndex) => {
+    if (pattern[index][slideIndex] === 0) {
+      slide.classList.add('hide')
+    } else {
+      slide.classList.remove('hide')
+    }
+  })
+
+  clearTimeout(timeout)
+  timeout = setTimeout(nextSlide, 2000)
+}
+section.addEventListener('click', nextSlide)
+window.addEventListener('keydown', function(event) {
+    const key = event.key; // "ArrowRight", , "ArrowUp", or "ArrowDown"
+
+    if (key === 'ArrowLeft') {
+      previousSlide();
+    }
+});
 timeout = setTimeout(nextSlide, 2000)

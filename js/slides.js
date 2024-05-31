@@ -64,5 +64,8 @@ window.addEventListener('keydown', function(event) {
     if (key === 'ArrowLeft') {
       previousSlide();
     }
+    else if (key === 'ArrowRight') {
+      nextSlide();
+    }
 });
 timeout = setTimeout(nextSlide, 2000)
